@@ -1,0 +1,38 @@
+.main-card{
+    width: 90vw;
+    max-width: 95vw;
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.inner-card{
+    display: flex;
+}
+
+.item-card{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 10px;
+}
+
+.item-card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carrossel-card{
+    cursor: grab;
+    overflow: hidden;
+}
+
+.text-carrossel{
+    text-align: center;
+    color: black;
+}

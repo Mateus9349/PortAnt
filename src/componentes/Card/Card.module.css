@@ -1,0 +1,61 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px;
+    padding: 1em 1em;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    height: 70vh;
+    background: url('../../../public/assets/img/fundo_tec.jpg') no-repeat;
+    background-size: cover;
+}
+
+.containerImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 23em;
+    height: auto;
+    max-width: 18em;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.img{
+    width: 8em;
+    max-width: 8em;
+    transition: 1.5s;
+}
+
+.img:hover{
+    max-width: 20em;
+    width: 200px;
+}
+
+.container{
+    max-width: 65%;
+    height: 90%;
+    background: none;
+}
+
+.titulo{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    align-self: flex-start;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.texto{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: justify;
+    text-indent: 20px;
+    word-break: normal;
+    color: aliceblue;
+    margin: 15px;
+}

@@ -1,0 +1,23 @@
+.container-softPessoal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    background-color: #34495E;
+    padding: 20px 0 20px 0;
+}
+
+.containerSoftSkill, .containerSoftSkill ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: none;
+}
+
+.containerSoftSkill h2{
+    background: none;
+}
+
+.item-soft{
+    font-size: 24px;
+    background: none;
+}
